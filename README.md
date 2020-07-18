@@ -1,7 +1,7 @@
 # CITC_Task
 Cars price prediction 
 
-This repo for a job offer coding task and the task was as follow:
+This repo is for a job offer coding task and the task was as follow:
 
 ``` You need to build a model that predicts the price of the car using Python. Please make sure to use at least 3 different methods/algorithms to predict the price and report which one will be most accurate. ```
 
@@ -14,7 +14,7 @@ the dataset contains 8 features 301 row
 ------------- | -------------
 1 | 47
 
-  2. Yeat: Numeric
+  2. Year: Numeric
   
   Min | Max | Mean | StdDev 
 ------------- | ------------- | ------------- | -------------
@@ -67,10 +67,10 @@ Bellow a histogram for all  features
 ## Preprocessing
   - Remove Outliers
   - Fill the Missing value
-  - convert to numeric representation
+  - Convert to numeric representation
   - Add new features
-  - Handdel Car's name
-  - feature selection
+  - Handel Car's name
+  - Feature selection
 
 ## Correlation matrix
 
@@ -80,14 +80,14 @@ Bellow a histogram for all  features
  - Shallow learning (Machine Learning)
     - Linear regression
     - Random forest regressor
-    - Suport vector regration
+    - Support vector regression
   - Deep learning
     - CNN
       - Baseline model
-      - Standardized Dataset
-      - Tuned the network
+      - Standardizing Dataset
+      - Tuning the network
 
-## Conclosion
+## Conclusion
 
 |Preprocessing| Models | MSE  | R2  | RMSE | Mean |
 | :---:   | :---:   | :-: | :-: |:-: |:-:  |
@@ -107,7 +107,7 @@ As we can see the Random Forest Regression gives a high R2 score **82%** with Me
 
 ![](https://github.com/HebahAlshamlan/CITC_Task/blob/master/img/RFR%20plot.png)
 
-**The plot of the Random forest regressor model which achieved the highest accuracy **
+**The plot of the Random forest regressor model which achieved the highest accuracy**
 
 ![](https://github.com/HebahAlshamlan/CITC_Task/blob/master/img/pred-RFR.png)
 
@@ -117,10 +117,10 @@ As we can see the Random Forest Regression gives a high R2 score **82%** with Me
 
 **R-Squared & RMSE by number of features**
 
-## The jupyter notebook has following sections:
-- Libararies
+## The jupyter notebook has the following sections:
+- Libraries
 - Load dataset
-- Exploraratory Data Analysis
+- Exploratory Data Analysis
    - Selling price
    - Convert to numeric representation
    - Missing values
@@ -136,7 +136,7 @@ As we can see the Random Forest Regression gives a high R2 score **82%** with Me
       - Feature Selection using RFE & K-Fold Cross Validation
     - Random force Regressor
       - Feature Selection using RFE & K-Fold Cross Validation
-    - Suport vector regration
+    - Support vector regression
   - Deep learning
     - CNN
 - Conda setup
